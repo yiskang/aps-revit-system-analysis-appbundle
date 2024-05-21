@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<RevitAddIns>
+	<AddIn Type="DBApplication">
+		<Name>SystemAnalysisAddin</Name>
+		<FullClassName>SystemAnalysisAddin.MainApp</FullClassName>
+		<Text>SystemAnalysisAddin</Text>
+		<Description>System Analysis with OpenStudio CLI</Description>
+		<VisibilityMode>AlwaysVisible</VisibilityMode>
+		<Assembly>.\SystemAnalysisAddin.dll</Assembly>
+		<AddInId>1F5A9EE7-517A-41E0-9C94-21BE6312F37A</AddInId>
+		<VendorId>ADSK</VendorId>
+		<VendorDescription>Autodesk, Inc, www.autodesk.com</VendorDescription>
+	</AddIn>
+</RevitAddIns>

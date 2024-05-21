@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ApplicationPackage Name="RevitDesignAutomation" Description="SystemAnalysisAddin" Author="aps.help@autodesk.com">
+	<CompanyDetails Name="Autodesk, Inc" Url="https://aps.autodesk.com" Email="aps.help@autodesk.com"/>
+	<Components Description="System Analysis with OpenStudio CLI">
+		<RuntimeRequirements SeriesMin="2024" SeriesMax="2024" Platform="Revit" OS="Win64"/>
+		<ComponentEntry LoadOnRevitStartup="True" LoadOnCommandInvocation="False" AppDescription="System Analysis with OpenStudio CLI" ModuleName="./Contents/SystemAnalysisAddin.addin" Version="1.0.0" AppName="SystemAnalysisAddin"/>
+	</Components>
+</ApplicationPackage>
