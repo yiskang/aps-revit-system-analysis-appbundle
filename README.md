@@ -50,14 +50,16 @@ This is a workaround for `RVTDA-2035` and `REVIT-222142`, which Revit API [ViewS
     ],
     "parameters": {
         "openStudioSDK": {
+            "zip": true,
             "verb": "get",
-            "localName": "OpenStudio CLI For Revit.zip",
+            "localName": "OpenStudio CLI For Revit",
             "description": "The ZIP package of OpenStudio CLI For Revit",
             "required": true
         },
         "weatherFilesCache": {
+            "zip": true,
             "verb": "get",
-            "localName": "RevitWeatherFilesCache.zip",
+            "localName": "RevitWeatherFilesCache",
             "description": "The ZIP package of OpenStudio weather data files",
             "required": true
         },

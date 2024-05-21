@@ -205,7 +205,7 @@ namespace SystemAnalysisAddin
                     LogTrace("- Extracting OpenStudio CLI for Revit...");
                     try
                     {
-                        ZipFile.ExtractToDirectory(Path.Combine(currentDir, "OpenStudio CLI For Revit.zip"), currentDir);
+                        ZipFile.ExtractToDirectory(Path.Combine(currentDir, "OpenStudio CLI For Revit.zip"), openStudioPath);
                     }
                     catch (Exception ex) { }
                     LogTrace("-- DONE... ");
@@ -226,7 +226,7 @@ namespace SystemAnalysisAddin
                     LogTrace("- Extracting Weather data...");
                     try
                     {
-                        ZipFile.ExtractToDirectory(Path.Combine(currentDir, "RevitWeatherFilesCache.zip"), currentDir);
+                        ZipFile.ExtractToDirectory(Path.Combine(currentDir, "RevitWeatherFilesCache.zip"), weatherCachePath);
                     }
                     catch (Exception ex) { }
                     LogTrace("-- DONE... ");
